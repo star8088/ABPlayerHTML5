@@ -36,9 +36,7 @@ correctly initialized.
 
 - createPopup(text, delay)
     Creates a popup with the text values that will vanish after delay (ms)
-    Will remove any currently displaying popup. Only one popup may be displayed at a
-    time.
-- removePopup()
-    Forces removal of a popup if it exists. Does nothing if it doesn't.
+- removePopup(text, delay)
+    Forces removal of a popup if it exists.
 
 
